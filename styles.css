@@ -90,8 +90,20 @@ body.dark-mode {
     color: #ecf0f1;
 }
 
+.dark-mode header,
+.dark-mode footer {
+    background-color: #1a252f;
+}
+
 .dark-mode .btn {
     background-color: #ecf0f1;
     color: #2c3e50;
+}
+
+.dark-mode input, 
+.dark-mode textarea {
+    background-color: #3d4f5c;
+    color: #ecf0f1;
+    border-color: #555;
 }
 
