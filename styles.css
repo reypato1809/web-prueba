@@ -141,3 +141,15 @@ body.dark-mode .juego {
 body.dark-mode #juegos {
     background-color: #3d4f5c; /* Fondo oscuro para la sección de juegos */
 }
+
+body.dark-mode input, 
+body.dark-mode textarea {
+    background-color: #4a6277; /* Fondo más claro para destacar los cuadros de texto */
+    color: #ecf0f1;
+    border-color: #666;
+}
+
+body.dark-mode input::placeholder, 
+body.dark-mode textarea::placeholder {
+    color: #b0c7d1; /* Color más claro para el texto del marcador de posición */
+}
