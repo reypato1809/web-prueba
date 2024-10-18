@@ -95,7 +95,7 @@ body.dark-mode {
     background-color: #1a252f;
 }
 
-.dark-mode .btn {
+body.dark-mode .btn {
     background-color: #ecf0f1;
     color: #2c3e50;
 }
@@ -131,6 +131,13 @@ body.dark-mode textarea {
 }
 
 body.dark-mode .juego {
-    background-color: #3d4f5c;
-    color: #ecf0f1;
+    background-color: #2c3e50; /* Fondo más oscuro para los recuadros de cada juego */
+    color: #ecf0f1; /* Color claro para el texto */
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+body.dark-mode #juegos {
+    background-color: #3d4f5c; /* Fondo oscuro para la sección de juegos */
 }
