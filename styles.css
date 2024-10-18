@@ -106,3 +106,15 @@ body.dark-mode {
     color: #ecf0f1;
     border-color: #555;
 }
+
+.dark-mode p, 
+.dark-mode h1, 
+.dark-mode h2, 
+.dark-mode h3, 
+.dark-mode a {
+    color: #ecf0f1;
+}
+
+.dark-mode a:hover {
+    color: #b0c7d1;
+}
