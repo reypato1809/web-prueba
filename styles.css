@@ -118,3 +118,19 @@ body.dark-mode {
 .dark-mode a:hover {
     color: #b0c7d1;
 }
+
+body.dark-mode section {
+    background-color: #3d4f5c;
+}
+
+body.dark-mode input, 
+body.dark-mode textarea {
+    background-color: #3d4f5c;
+    color: #ecf0f1;
+    border-color: #555;
+}
+
+body.dark-mode .juego {
+    background-color: #3d4f5c;
+    color: #ecf0f1;
+}
